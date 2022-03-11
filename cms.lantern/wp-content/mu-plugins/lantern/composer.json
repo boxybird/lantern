@@ -1,0 +1,21 @@
+{
+    "name": "boxybird/lantern",
+    "description": "A WordPress, Laravel project.",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Andrew Rhyand",
+            "email": "hello@andrewrhyand.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BoxyBird\\Lantern\\": "src/"
+        }
+    },
+    "require": {}
+}
