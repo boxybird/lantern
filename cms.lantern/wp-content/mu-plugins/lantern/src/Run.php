@@ -9,7 +9,7 @@ class Run
 {
     public static function init(): void
     {
-        add_action('setup_theme', [Run::class, 'app'], PHP_INT_MAX);
+        add_action('wp_loaded', [Run::class, 'app'], PHP_INT_MAX);
     }
 
     public static function app(): void
