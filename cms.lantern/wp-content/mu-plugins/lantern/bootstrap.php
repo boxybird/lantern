@@ -1,11 +1,9 @@
 <?php
 
-define('LARAVEL_PATH', ABSPATH . '../lantern');
-
 /**
  * Require the Composer autoloader for Lantern.
  */
-require_once __DIR__ . '/vendor/autoload.php';
+require_once LANTERN_PLUGIN_PATH . '/vendor/autoload.php';
 
 /**
  * Require the Composer autoloader for Laravel.
