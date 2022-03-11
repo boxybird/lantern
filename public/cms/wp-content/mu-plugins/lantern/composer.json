@@ -12,5 +12,10 @@
             "email": "hello@andrewrhyand.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "BoxyBird\\Lantern\\": "src/"
+        }
+    },
     "require": {}
 }
