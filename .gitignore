@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+
+# Laravel files
+!public/
+!public/index.php
+
+# WordPress files
+!public/cms
+!public/cms/wp-content
+!public/cms/wp-content/mu-plugins
+!public/cms/wp-content/mu-plugins/**/*
+public/cms/wp-content/mu-plugins/lantern/vendor

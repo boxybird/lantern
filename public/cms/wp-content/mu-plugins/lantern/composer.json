@@ -1,0 +1,16 @@
+{
+    "name": "boxybird/lantern",
+    "description": "A WordPress, Laravel project.",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Andrew Rhyand",
+            "email": "hello@andrewrhyand.com"
+        }
+    ],
+    "require": {}
+}
